@@ -5,7 +5,7 @@ import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
-              id: 1,,
+              id: 1,
     name: 'ICT Trading AI',
     description: "Built full-stack ML system automating Smart Money Concepts (ICT) detection on BTC 15m/1h data. Engineered features (FVGs, Liquidity Sweeps, Order Blocks), applied K-Means clustering for market phases. Backtested 1,949 trades over 19 months with 67% combined accuracy (75-83% monthly). Mobile dashboard in React Native for real-time alerts.",
     tools: ['Python', 'scikit-learn', 'K-Means', 'Pandas', 'Binance API', 'Discord API', 'React Native'],
