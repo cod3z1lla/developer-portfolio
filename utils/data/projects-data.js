@@ -14,6 +14,7 @@ export const projectsData = [
     demo: '',
     image: crefin,
   },
+      {
         id: 2,
         name: 'Pathfinder',
         description: "I developed a web-based Dijkstra Algorithm Visualizer using JavaScript, HTML, and CSS. This tool allows users to interactively place obstacles on a grid and visualize the shortest path in real-time. The project simplifies complex algorithmic concepts, making them accessible and engaging for learners and enthusiasts.",
