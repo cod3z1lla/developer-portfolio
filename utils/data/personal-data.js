@@ -1,15 +1,15 @@
 export const personalData = {
   name: "Muhammad Shahzaib",
   profile: '/profile.jpg',
-  designation: "Software Developer",
-  description: "My name is Muhammad Shahzaib. I am a passionate Computer Science student currently at Bahria University. As an skillful programmer, I have honed my skills in JavaScript, TypeScript, React Native, PostgreSQL, Supabase, and Expo. I have successfully developed projects like a metro ticketing system using the MERN stack and a polling mobile app built with React Native and Supabase, deployed on Expo. I am an ICPC (International Colegiate Programming Contest) Regionalist with strong problem-solving abilities in C++. I am always eager to learn and explore new technologies, and I am seeking new job opportunities that align with my skills and interests.",
+  designation: "Machine Learning Engineer | Python Developer | Algorithmic Trading Specialist",
+  description: "My name is Muhammad Shahzaib. I'm a Software Engineer specializing in Machine Learning, Algorithmic Trading, and Production-Grade Mobile Applications. Currently building ML-powered trading systems with 75-83% accuracy on crypto markets, automated Discord/Telegram bots serving 1,000+ users, and cross-platform mobile apps deployed to iOS/Android stores. ICPC Regionalist (Top 40/60 teams, Pakistan 2024) with proven track record in competitive programming and problem-solving. Tech Stack: Python, JavaScript/TypeScript, C++, React Native, Machine Learning (scikit-learn, K-Means), FastAPI, PostgreSQL, Supabase, Expo, Discord API, Binance API. Open to opportunities in ML Engineering, Python Development, React Native Development, and Quantitative Trading Analysis.",
   email: 'shahzaib.tariq041@gmail.com',
-  
+  phone: '+923094411421',
   address: 'Islamabad, Pakistan',
   github: 'https://github.com/m-shazaib/',
-  linkedIn: 'https://www.linkedin.com/in/shahzaibdev/',
+  linkedin: 'https://www.linkedin.com/in/shahzaibdev/',
   twitter: 'https://twitter.com/',
   leetcode: "https://leetcode.com/f86-sabre/",
   resume: "https://purple-vania-8.tiiny.site/",
-  medium: 'https://medium.com/@shazaib3742',
+  medium: 'https://medium.com/@shahzaib3742',
 }
