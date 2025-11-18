@@ -75,6 +75,9 @@ import wordpress from '/public/svg/skills/wordpress.svg';
 import supabase from '/public/svg/skills/supabase.svg';
 import reactnative from '/public/svg/skills/reactnative.svg';
 import expo from '/public/svg/skills/expo.svg';
+import discord from '/public/svg/skills/discord.svg';
+import binance from '/public/svg/skills/binance.svg';
+import trading from '/public/svg/skills/trading.svg';
 
 
 export const skillsImage = (skill) => {
@@ -237,11 +240,11 @@ export const skillsImage = (skill) => {
           case 'fastapi':
       return fastify;
     case 'binance api':
-      return python;
+      return binance;
     case 'discord api':
-      return python;
+      return discord;
     case 'algorithmic trading':
-      return python;
+      return trading;
     case 'machine learning':
       return tensorflow;
     case 'scikit-learn':
