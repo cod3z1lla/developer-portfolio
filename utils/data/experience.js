@@ -8,7 +8,7 @@ export const experiences = [
   {
     id: 2,
     title: 'Mobile Application Developer',
-    company: "LogicAspire",
+    company: "Logic Aspire",
     duration: "(Aug 2024 - Present)"
   },
   {
