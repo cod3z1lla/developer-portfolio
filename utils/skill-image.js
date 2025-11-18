@@ -234,6 +234,24 @@ export const skillsImage = (skill) => {
       return reactnative;
     case 'expo':
       return expo;
+          case 'fastapi':
+      return fastify;
+    case 'binance api':
+      return python;
+    case 'discord api':
+      return python;
+    case 'algorithmic trading':
+      return python;
+    case 'machine learning':
+      return tensorflow;
+    case 'scikit-learn':
+      return python;
+    case 'k-means clustering':
+      return python;
+    case 'pandas':
+      return numpy;
+    case 'data analysis':
+      return python;
     default:
       break;
   }
