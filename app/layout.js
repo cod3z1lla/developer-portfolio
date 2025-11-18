@@ -31,12 +31,12 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://mshahzaib.vercel.app/" />
         <link
           rel="alternate"
-          hreflang="en"
+          hrefLang="en"
           href="https://mshahzaib.vercel.app/en"
         />
         <link
           rel="alternate"
-          hreflang="es"
+          hrefLang="es"
           href="https://mshahzaib.vercel.app/es"
         />
 
