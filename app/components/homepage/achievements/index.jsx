@@ -1,15 +1,15 @@
 // @flow strict
 import Image from "next/image";
 
-import { educations } from "@/utils/data/educations";
-import { BsPersonWorkspace } from "react-icons/bs";
+import { achievements } from "@/utils/data/achievements";
+import { BsTrophy } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from '/public/lottie/study.json';
 
-function Education() {
+function Achievements() {
   return (
-    <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#333333]">
+    <div id="achievements" className="relative z-50 border-t my-12 lg:my-24 border-[#333333]">
       <Image
         src="/section.svg"
         alt="Hero"
@@ -27,7 +27,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#581c87]"></span>
           <span className="bg-[#581c87] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            Achievements
           </span>
           <span className="w-24 h-[2px] bg-[#581c87]"></span>
         </div>
@@ -44,8 +44,8 @@ function Education() {
           <div>
             <div className="flex flex-col gap-6">
               {
-                educations.map(education => (
-                  <GlowCard key={education.id} identifier={`education-${education.id}`}>
+                achievements.map(achievement => (
+                  <GlowCard key={achievement.id} identifier={`achievement-${achievement.id}`}>
                     <div className="p-3 relative text-white">
                       <Image
                         src="/blur-23.svg"
@@ -54,20 +54,17 @@ function Education() {
                         height={200}
                         className="absolute bottom-0 opacity-80"
                       />
-                      <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#d946ef]">
-                          {education.duration}
-                        </p>
-                      </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                        <div className="text-[#d946ef] transition-all duration-300 hover:scale-125">
+                          <BsTrophy size={36} />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {education.title}
+                            {achievement.title}
                           </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-sm sm:text-base text-gray-300">
+                            {achievement.description}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -82,4 +79,4 @@ function Education() {
   );
 };
 
-export default Education;
+export default Achievements;

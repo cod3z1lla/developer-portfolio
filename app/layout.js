@@ -9,9 +9,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Muhammad Shahzaib: React Native & Mobile App Developer in Islamabad",
+  title: "Muhammad Shahzaib Tariq - AI Engineer Portfolio",
   description:
-    "Explore Muhammad Shahzaib's portfolio, a skilled React Native and Front End Developer based in Islamabad. Specializing in mobile app development and open to new challenges.",
+    "Portfolio of Muhammad Shahzaib Tariq, an AI Engineer specializing in LLM Systems, RAG, and Agent Workflows. ICPC Regionalist and Machine Learning expert.",
 };
 
 export default function RootLayout({ children }) {
@@ -21,13 +21,13 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="0OOQ1LA27Ro5drsl81u-P1O19KquM-w-3yIt0UwN0zg" />
         <meta
           name="description"
-          content="Explore Muhammad Shahzaib's portfolio, a skilled React Native and Front End Developer based in Islamabad. Specializing in mobile app development and open to new challenges."
+          content="Portfolio of Muhammad Shahzaib Tariq, an AI Engineer specializing in LLM Systems, RAG, and Agent Workflows. ICPC Regionalist and Machine Learning expert."
         />
         <meta
           name="keywords"
-          content="React Native, Mobile Developer, Muhammad Shahzaib, Shahzaib, Islamabad, Software Developer, Full Stack Developer, JavaScript, MERN Stack, Web Development, Mobile Development"
+          content="AI Engineer, Machine Learning Engineer, LLM Engineer, RAG Developer, LangChain Developer, Retrieval Augmented Generation, ICPC Regionalist"
         />
-        <meta name="author" content="Muhammad Shahzaib" />
+        <meta name="author" content="Muhammad Shahzaib Tariq" />
         <link rel="canonical" href="https://mshahzaib.vercel.app/" />
         <link
           rel="alternate"
@@ -42,11 +42,11 @@ export default function RootLayout({ children }) {
 
         <meta
           property="og:title"
-          content="Muhammad Shahzaib: React Native & Mobile App Developer in Islamabad"
+          content="Muhammad Shahzaib Tariq - AI Engineer Portfolio"
         />
         <meta
           property="og:description"
-          content="Explore Muhammad Shahzaib's portfolio, a skilled React Native and Front End Developer based in Islamabad. Specializing in mobile app development and open to new challenges."
+          content="Portfolio of Muhammad Shahzaib Tariq, an AI Engineer specializing in LLM Systems, RAG, and Agent Workflows. ICPC Regionalist and Machine Learning expert."
         />
         <meta property="og:url" content="https://mshahzaib.vercel.app/" />
         <meta property="og:type" content="website" />
@@ -57,11 +57,11 @@ export default function RootLayout({ children }) {
 
         <meta
           name="twitter:title"
-          content="Muhammad Shahzaib: React Native & Mobile App Developer in Islamabad"
+          content="Muhammad Shahzaib Tariq - AI Engineer Portfolio"
         />
         <meta
           name="twitter:description"
-          content="Explore Muhammad Shahzaib's portfolio, a skilled React Native and Front End Developer based in Islamabad. Specializing in mobile app development and open to new challenges."
+          content="Portfolio of Muhammad Shahzaib Tariq, an AI Engineer specializing in LLM Systems, RAG, and Agent Workflows. ICPC Regionalist and Machine Learning expert."
         />
         <meta
           name="twitter:image"
@@ -73,19 +73,19 @@ export default function RootLayout({ children }) {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            name: "Muhammad Shahzaib",
-            jobTitle: "React Native & Mobile App Developer",
+            name: "Muhammad Shahzaib Tariq",
+            jobTitle: "AI Engineer",
             url: "https://mshahzaib.vercel.app",
             image: "https://mshahzaib.vercel.app/image/screen.png",
             description:
-              "Explore Muhammad Shahzaib's portfolio, a skilled React Native and Front End Developer based in Islamabad. Specializing in mobile app development and open to new challenges.",
+              "Portfolio of Muhammad Shahzaib Tariq, an AI Engineer specializing in LLM Systems, RAG, and Agent Workflows. ICPC Regionalist and Machine Learning expert.",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Islamabad",
               addressCountry: "Pakistan",
             },
             sameAs: [
-              "https://www.linkedin.com/in/Shahzaibdev/",
+              "https://www.linkedin.com/in/shahzaibdev/",
               "https://github.com/m-shazaib/",
               "https://twitter.com/",
             ],
@@ -94,11 +94,13 @@ export default function RootLayout({ children }) {
               name: "Bahria University",
             },
             knowsAbout: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "RAG",
+              "LLM",
               "React Native",
-              "JavaScript",
-              "TypeScript",
-              "Mobile Development",
-              "MERN Stack",
+              "Python",
+              "C++"
             ],
             email: "mailto:shahzaib.tariq041@gmail.com",
           })}

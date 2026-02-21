@@ -255,6 +255,22 @@ export const skillsImage = (skill) => {
       return numpy;
     case 'data analysis':
       return python;
+    case 'rag':
+      return pytorch;
+    case 'langchain':
+      return python;
+    case 'langgraph':
+      return python;
+    case 'vector search':
+      return python;
+    case 'faiss':
+      return python;
+    case 'mlflow':
+      return python;
+    case 'extended kalman filter (ekf)':
+      return python;
+    case 'rest apis':
+      return javascript;
     default:
       break;
   }
